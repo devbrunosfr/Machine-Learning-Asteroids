@@ -1,0 +1,18 @@
+{
+  "champion": "v2",
+  "updated_at_utc": "2026-11-13T10:24:58.307891+00:00",
+  "versions": {
+    "v1": {
+      "algorithm": "Regressão Logística",
+      "stage": "archived",
+      "model_sha256": "3854295271f127e1b90fa569e5824ef78ba02351d5a42b2cb9b61f180af6e924",
+      "generation": 1794565498311686884
+    },
+    "v2": {
+      "algorithm": "Gradient Boosting (Hist)",
+      "stage": "champion",
+      "model_sha256": "d5d1ecfb4bc78cd0223c03876ad72bc6cc8b75b40171688b9de9c6c71db9c5aa",
+      "generation": 1794565498324222414
+    }
+  }
+}

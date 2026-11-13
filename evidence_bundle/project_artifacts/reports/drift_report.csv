@@ -1,0 +1,17 @@
+cenario,feature,psi,drift_psi
+holdout,e,0.0012708484416775676,False
+holdout,a,0.0013144483008788457,False
+holdout,i,0.0008253114204445216,False
+holdout,om,0.0014133647475198072,False
+holdout,w,0.0020442517562919748,False
+holdout,ma,0.000563959994358884,False
+holdout,q,0.001037493167782892,False
+holdout,per,0.0013144483008788457,False
+lote simulado,e,0.6704349011348775,True
+lote simulado,a,0.0013144483008788457,False
+lote simulado,i,0.0008253114204445216,False
+lote simulado,om,0.0014133647475198072,False
+lote simulado,w,0.0020442517562919748,False
+lote simulado,ma,0.000563959994358884,False
+lote simulado,q,1.9381988962232815,True
+lote simulado,per,0.0013144483008788457,False

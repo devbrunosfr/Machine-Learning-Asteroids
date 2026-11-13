@@ -1,0 +1,42 @@
+{
+  "model_version": "v1",
+  "algorithm": "Regressão Logística",
+  "estimator": "LogisticRegression(class_weight='balanced', max_iter=2000, random_state=42)",
+  "dataset_sha256": "6be8fec3173f12d9e8e77b4744bfbffed0fe9e7ae5394f7bb9a23634adbff94a",
+  "features": [
+    "e",
+    "a",
+    "i",
+    "om",
+    "w",
+    "ma",
+    "q",
+    "per"
+  ],
+  "random_state": 42,
+  "sklearn_version": "1.9.1",
+  "metrics_cv": {
+    "cv_accuracy_media": 0.7311478038899318,
+    "cv_precision_pha_media": 0.13266710681776617,
+    "cv_recall_pha_media": 0.6351850520159165,
+    "cv_f1_pha_media": 0.21946841698923752,
+    "cv_roc_auc_media": 0.7571072533985925,
+    "cv_accuracy_dp": 0.008974612663825387,
+    "cv_precision_pha_dp": 0.008363340446106237,
+    "cv_recall_pha_dp": 0.03236137800273953,
+    "cv_f1_pha_dp": 0.013206671123603147,
+    "cv_roc_auc_dp": 0.010933483877937343
+  },
+  "metrics_test": {
+    "accuracy": 0.7237684872481658,
+    "precision_pha": 0.12937898089171976,
+    "recall_pha": 0.6372549019607843,
+    "f1_pha": 0.21508934480476505,
+    "roc_auc_pha": 0.7636972084859697,
+    "training_seconds": 0.09039735794067383,
+    "test_rows": 8587
+  },
+  "model_sha256": "3854295271f127e1b90fa569e5824ef78ba02351d5a42b2cb9b61f180af6e924",
+  "stage": "archived",
+  "created_at_utc": "2026-11-13T10:24:58.311485+00:00"
+}

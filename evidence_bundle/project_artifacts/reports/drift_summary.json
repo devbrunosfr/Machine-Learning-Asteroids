@@ -1,0 +1,14 @@
+{
+  "threshold_psi": 0.2,
+  "features_drifted_shifted": 2,
+  "performance_holdout": {
+    "accuracy": 0.7606847560265517,
+    "recall_pha": 0.7411764705882353
+  },
+  "performance_shifted": {
+    "accuracy": 0.5009898684057296,
+    "recall_pha": 0.8019607843137255
+  },
+  "accuracy_drop_pp": 25.969488762082214,
+  "retraining_recommended": true
+}

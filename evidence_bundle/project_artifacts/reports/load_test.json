@@ -1,0 +1,14 @@
+{
+  "requests": 300,
+  "concurrent_clients": 8,
+  "http_200": 300,
+  "http_errors": 0,
+  "duration_s": 2.306,
+  "throughput_rps": 130.1,
+  "latency_ms": {
+    "p50": 59.45014999998932,
+    "p95": 79.83753355000974,
+    "p99": 93.95422286999707
+  },
+  "scope": "loopback; n\u00e3o mede rede nem autoscaling"
+}

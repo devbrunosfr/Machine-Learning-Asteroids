@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+     não PHA       0.98      0.76      0.86      8077
+         PHA       0.16      0.74      0.27       510
+
+    accuracy                           0.76      8587
+   macro avg       0.57      0.75      0.56      8587
+weighted avg       0.93      0.76      0.82      8587

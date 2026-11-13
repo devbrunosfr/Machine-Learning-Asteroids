@@ -1,0 +1,131 @@
+{
+  "run_id": "20261113T102458_339820Z",
+  "created_at_utc": "2026-11-13T10:25:01.563698+00:00",
+  "execution_mode": "emulado (bucket local)",
+  "storage_service": "local-emulado",
+  "bucket": "asteroid-impact-ml-demo",
+  "champion_model": "v2",
+  "dataset_sha256": "6be8fec3173f12d9e8e77b4744bfbffed0fe9e7ae5394f7bb9a23634adbff94a",
+  "dataset_snapshot_id": "sbdb_neo_20261113T102436Z_6be8fec3173f",
+  "data_source": "https://ssd-api.jpl.nasa.gov/sbdb_query.api",
+  "dataset_collected_at_utc": "2026-11-13T10:24:36.927607+00:00",
+  "bucket_objects_uploaded": 19,
+  "bucket_objects": [
+    "data/processed/test.csv",
+    "data/processed/train.csv",
+    "data/raw/neo_orbital_snapshot.csv",
+    "figures/evaluation_champion.png",
+    "logs/inference_logs.jsonl",
+    "models/registry.json",
+    "models/v1/metadata.json",
+    "models/v1/model.joblib",
+    "models/v2/metadata.json",
+    "models/v2/model.joblib",
+    "reports/alerts.json",
+    "reports/classification_report_champion.txt",
+    "reports/dataset_version.json",
+    "reports/drift_report.csv",
+    "reports/drift_summary.json",
+    "reports/experiments.csv",
+    "reports/load_test.json",
+    "reports/metrics.json",
+    "reports/monitoring_summary.json"
+  ],
+  "artifacts": [
+    {
+      "path": "data/raw/neo_orbital_snapshot.csv",
+      "bytes": 9651156,
+      "sha256": "6be8fec3173f12d9e8e77b4744bfbffed0fe9e7ae5394f7bb9a23634adbff94a"
+    },
+    {
+      "path": "data/processed/test.csv",
+      "bytes": 1337412,
+      "sha256": "71bfe8d2ccdae0989f29a9b20887a4523444398b8da71b7b6996f5e9d5defe11"
+    },
+    {
+      "path": "data/processed/train.csv",
+      "bytes": 5349474,
+      "sha256": "65fbe462c91962ef5e5c679b2a9ce765c51c42da6b3d7526c26c00f6d7b536d1"
+    },
+    {
+      "path": "models/registry.json",
+      "bytes": 541,
+      "sha256": "c26a768b5711c19aec529074d3edf0770276f8a0a7ba4d8d909276e7c213779e"
+    },
+    {
+      "path": "models/v1/metadata.json",
+      "bytes": 1320,
+      "sha256": "b2b09a4d7aded0426d194c31b2b8c2bb6336b65702191becf2d3fd21047ca79b"
+    },
+    {
+      "path": "models/v1/model.joblib",
+      "bytes": 1873,
+      "sha256": "3854295271f127e1b90fa569e5824ef78ba02351d5a42b2cb9b61f180af6e924"
+    },
+    {
+      "path": "models/v2/metadata.json",
+      "bytes": 1319,
+      "sha256": "c9ad7b4507b79ff7f66b0ed14a2af3321c37f67ea3bca8a6a4b89ab206030335"
+    },
+    {
+      "path": "models/v2/model.joblib",
+      "bytes": 206041,
+      "sha256": "d5d1ecfb4bc78cd0223c03876ad72bc6cc8b75b40171688b9de9c6c71db9c5aa"
+    },
+    {
+      "path": "logs/inference_logs.jsonl",
+      "bytes": 69578,
+      "sha256": "da080fd54a963bd6007cac26fa406a578acbc3a207bc0c515e4ec6e5f420738c"
+    },
+    {
+      "path": "reports/alerts.json",
+      "bytes": 231,
+      "sha256": "5dca38e5163f13073900f7123816205b2dc0dce86e2fdd291e912e4fc7a81583"
+    },
+    {
+      "path": "reports/classification_report_champion.txt",
+      "bytes": 327,
+      "sha256": "636dcb345c7e8ecb012c500bb3b7d73786f78b5b01564dfcc34d8a60146f0c0c"
+    },
+    {
+      "path": "reports/dataset_version.json",
+      "bytes": 2657,
+      "sha256": "92b641d53e2cc8388a4e2979edbd65179b352c9cfdd4a0aaa682b38909755b54"
+    },
+    {
+      "path": "reports/drift_report.csv",
+      "bytes": 683,
+      "sha256": "b711eb375e3e33a3c9d93ca130e33c9df63717256148044574f1fbd24bb5c7bb"
+    },
+    {
+      "path": "reports/drift_summary.json",
+      "bytes": 345,
+      "sha256": "d6c37c0088f29c4198ee4ed5647faa3ac672df73dc04fac17a1edf17d5be9981"
+    },
+    {
+      "path": "reports/experiments.csv",
+      "bytes": 873,
+      "sha256": "fd0e00f8fc5e9f6e7b7a0f358dcf35bdb4145d2a042b5a5810eecfbdff672ea3"
+    },
+    {
+      "path": "reports/load_test.json",
+      "bytes": 308,
+      "sha256": "4a4715f3b2855daeb299e7665751d4d2843c4ac6de06f988bbe1e56d8a718f5f"
+    },
+    {
+      "path": "reports/metrics.json",
+      "bytes": 727,
+      "sha256": "aa75ebad45f14a0dfa617962ece4485d19b423e5e672941168188c8eaee1517b"
+    },
+    {
+      "path": "reports/monitoring_summary.json",
+      "bytes": 382,
+      "sha256": "e43356b201f0c8ffd8ba6304a8e5fa604e89ef48ffafe84d897bcbd2b4f7363b"
+    },
+    {
+      "path": "figures/evaluation_champion.png",
+      "bytes": 66114,
+      "sha256": "3e27bdf33fe1a3655739c28142ba74c91403212ad0c9b636218515f7aaaa1883"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+digraph G {
+  graph [rankdir=TB, bgcolor="white", pad="0.15", nodesep="0.35", ranksep="0.55", splines=ortho, fontname="Arial"];
+  node [shape=box, style="solid", color="black", fontcolor="black", fontname="Arial", fontsize=12, penwidth=1.3, margin="0.16,0.10"];
+  edge [color="black", fontcolor="black", fontname="Arial", fontsize=10, penwidth=1.0, arrowsize=0.7];
+  source [label="NASA/JPL SBDB Query API\nFonte oficial de asteroides próximos da Terra", shape=cylinder];
+  collect [label="Coleta e validação\nPaginação, retentativas e snapshot UTC"];
+  raw [label="Armazenamento versionado\nBucket local emulado / equivalente GCS ou S3\nDados brutos, processados, modelos e logs", shape=cylinder];
+  prep [label="Preparação dos dados\nLimpeza, tipagem e divisão train/test estratificada"];
+  train [label="Treinamento e seleção\nscikit-learn | validação cruzada de 5 folds\nF1 da classe PHA como critério principal"];
+  registry [label="Registro de modelos\nv1, v2 e champion\nMetadados e hashes SHA-256", shape=cylinder];
+  api [label="Serviço de inferência\nFlask: GET /health e POST /predict"];
+  client [label="Consumidores\nRequisições JSON, testes funcionais e teste de carga"];
+  monitor [label="Monitoramento\nLogs JSON, latência, erros, PSI/data drift e model drift"];
+  gov [label="Governança e evidências\nManifesto, versionamento e pacote de evidências"];
+  source -> collect [label="dados JSON/HTTP"];
+  collect -> raw [label="CSV bruto"];
+  raw -> prep [label="leitura versionada"];
+  prep -> train [label="8 features orbitais"];
+  train -> registry [label="model.joblib + métricas"];
+  registry -> api [label="carrega champion"];
+  api -> client [label="predição / status"];
+  client -> api [label="JSON"];
+  api -> monitor [label="logs e métricas"];
+  raw -> gov [label="hash + gerações"];
+  registry -> gov [label="metadados"];
+  monitor -> gov [label="relatórios"];
+}

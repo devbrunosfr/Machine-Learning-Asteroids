@@ -1,0 +1,169 @@
+{
+  "bundle_name": "evidence_bundle.zip",
+  "created_at_utc": "2026-11-13T10:29:20.211435+00:00",
+  "project": "Asteroid Impact Intelligence",
+  "execution_mode": "emulado (bucket local) com coleta real na NASA/JPL SBDB API",
+  "artifacts_count": 32,
+  "artifacts": [
+    {
+      "path": "documentation/arquitetura_asteroid_ml.dot",
+      "bytes": 1915,
+      "sha256": "b20db23b18850916b23f05b0e3bd161d6cf3a71ce2fb90c5c59f22b7e0ba0b99"
+    },
+    {
+      "path": "documentation/desafio_original.pdf",
+      "bytes": 498330,
+      "sha256": "15a7391bb766bc15ad521931c41ab57b3f3eeb2ad43ec0c148d3537aa22ef3d1"
+    },
+    {
+      "path": "documentation/diagrama_arquitetura_asteroid_ml_pb.png",
+      "bytes": 160705,
+      "sha256": "46c2263468dc4fefb9042ec61d5590c441ceef8fc0528a8afe8d0f892919cd96"
+    },
+    {
+      "path": "documentation/relatorio_tecnico_asteroid_impact_intelligence.docx",
+      "bytes": 333341,
+      "sha256": "ed10b77303351ef62a8b9541395408d40ebaea8566cd4f0f85ae71f10a152dc3"
+    },
+    {
+      "path": "documentation/relatorio_tecnico_asteroid_impact_intelligence.pdf",
+      "bytes": 355568,
+      "sha256": "c7db00aebb3f665e0eca4f1b1aba15e670f6c15a73cf4a651a5404d448c542c4"
+    },
+    {
+      "path": "project_artifacts/_staging/champion.joblib",
+      "bytes": 206041,
+      "sha256": "d5d1ecfb4bc78cd0223c03876ad72bc6cc8b75b40171688b9de9c6c71db9c5aa"
+    },
+    {
+      "path": "project_artifacts/_staging/raw.csv",
+      "bytes": 9651156,
+      "sha256": "6be8fec3173f12d9e8e77b4744bfbffed0fe9e7ae5394f7bb9a23634adbff94a"
+    },
+    {
+      "path": "project_artifacts/_staging/registry.json",
+      "bytes": 541,
+      "sha256": "c26a768b5711c19aec529074d3edf0770276f8a0a7ba4d8d909276e7c213779e"
+    },
+    {
+      "path": "project_artifacts/data/processed/test.csv",
+      "bytes": 1337412,
+      "sha256": "71bfe8d2ccdae0989f29a9b20887a4523444398b8da71b7b6996f5e9d5defe11"
+    },
+    {
+      "path": "project_artifacts/data/processed/train.csv",
+      "bytes": 5349474,
+      "sha256": "65fbe462c91962ef5e5c679b2a9ce765c51c42da6b3d7526c26c00f6d7b536d1"
+    },
+    {
+      "path": "project_artifacts/data/raw/neo_orbital_snapshot.csv",
+      "bytes": 9651156,
+      "sha256": "6be8fec3173f12d9e8e77b4744bfbffed0fe9e7ae5394f7bb9a23634adbff94a"
+    },
+    {
+      "path": "project_artifacts/evidence_bundle.zip",
+      "bytes": 7654969,
+      "sha256": "d6ba6f4b5a7d5bb4efaf9c5c9c3781720bbb8113eee2da40aa9c938092e071b5"
+    },
+    {
+      "path": "project_artifacts/figures/evaluation_champion.png",
+      "bytes": 66114,
+      "sha256": "3e27bdf33fe1a3655739c28142ba74c91403212ad0c9b636218515f7aaaa1883"
+    },
+    {
+      "path": "project_artifacts/logs/inference_logs.jsonl",
+      "bytes": 69578,
+      "sha256": "da080fd54a963bd6007cac26fa406a578acbc3a207bc0c515e4ec6e5f420738c"
+    },
+    {
+      "path": "project_artifacts/models/registry.json",
+      "bytes": 541,
+      "sha256": "c26a768b5711c19aec529074d3edf0770276f8a0a7ba4d8d909276e7c213779e"
+    },
+    {
+      "path": "project_artifacts/models/v1/metadata.json",
+      "bytes": 1320,
+      "sha256": "b2b09a4d7aded0426d194c31b2b8c2bb6336b65702191becf2d3fd21047ca79b"
+    },
+    {
+      "path": "project_artifacts/models/v1/model.joblib",
+      "bytes": 1873,
+      "sha256": "3854295271f127e1b90fa569e5824ef78ba02351d5a42b2cb9b61f180af6e924"
+    },
+    {
+      "path": "project_artifacts/models/v2/metadata.json",
+      "bytes": 1319,
+      "sha256": "c9ad7b4507b79ff7f66b0ed14a2af3321c37f67ea3bca8a6a4b89ab206030335"
+    },
+    {
+      "path": "project_artifacts/models/v2/model.joblib",
+      "bytes": 206041,
+      "sha256": "d5d1ecfb4bc78cd0223c03876ad72bc6cc8b75b40171688b9de9c6c71db9c5aa"
+    },
+    {
+      "path": "project_artifacts/reports/alerts.json",
+      "bytes": 231,
+      "sha256": "5dca38e5163f13073900f7123816205b2dc0dce86e2fdd291e912e4fc7a81583"
+    },
+    {
+      "path": "project_artifacts/reports/classification_report_champion.txt",
+      "bytes": 327,
+      "sha256": "636dcb345c7e8ecb012c500bb3b7d73786f78b5b01564dfcc34d8a60146f0c0c"
+    },
+    {
+      "path": "project_artifacts/reports/dataset_version.json",
+      "bytes": 2657,
+      "sha256": "92b641d53e2cc8388a4e2979edbd65179b352c9cfdd4a0aaa682b38909755b54"
+    },
+    {
+      "path": "project_artifacts/reports/drift_report.csv",
+      "bytes": 683,
+      "sha256": "b711eb375e3e33a3c9d93ca130e33c9df63717256148044574f1fbd24bb5c7bb"
+    },
+    {
+      "path": "project_artifacts/reports/drift_summary.json",
+      "bytes": 345,
+      "sha256": "d6c37c0088f29c4198ee4ed5647faa3ac672df73dc04fac17a1edf17d5be9981"
+    },
+    {
+      "path": "project_artifacts/reports/evidence_manifest.json",
+      "bytes": 4294,
+      "sha256": "beba7e41cb3c37efb109fef59321697fbec9c1514eca7c20b33121a4db1298e7"
+    },
+    {
+      "path": "project_artifacts/reports/experiments.csv",
+      "bytes": 873,
+      "sha256": "fd0e00f8fc5e9f6e7b7a0f358dcf35bdb4145d2a042b5a5810eecfbdff672ea3"
+    },
+    {
+      "path": "project_artifacts/reports/load_test.json",
+      "bytes": 308,
+      "sha256": "4a4715f3b2855daeb299e7665751d4d2843c4ac6de06f988bbe1e56d8a718f5f"
+    },
+    {
+      "path": "project_artifacts/reports/metrics.json",
+      "bytes": 727,
+      "sha256": "aa75ebad45f14a0dfa617962ece4485d19b423e5e672941168188c8eaee1517b"
+    },
+    {
+      "path": "project_artifacts/reports/monitoring_summary.json",
+      "bytes": 382,
+      "sha256": "e43356b201f0c8ffd8ba6304a8e5fa604e89ef48ffafe84d897bcbd2b4f7363b"
+    },
+    {
+      "path": "source_code/gerar_relatorio.py",
+      "bytes": 23208,
+      "sha256": "b7b5660ab55bc0d51b14b4e6df9c0d5f7a12bdcb7e7477e34c75bc4219d3c1e3"
+    },
+    {
+      "path": "source_code/notebook_executado.ipynb",
+      "bytes": 156405,
+      "sha256": "a9b4ee6bc3c8cceb69904e987832975933834ae03c9297ef0594fa497007d2cd"
+    },
+    {
+      "path": "source_code/notebook_original.ipynb",
+      "bytes": 40669,
+      "sha256": "225532561830f59ca83bcfda9b949cee45efd5f528033fa0d26df8a1d7b769a4"
+    }
+  ]
+}

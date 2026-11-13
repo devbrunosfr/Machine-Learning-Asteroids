@@ -1,0 +1,42 @@
+{
+  "model_version": "v2",
+  "algorithm": "Gradient Boosting (Hist)",
+  "estimator": "HistGradientBoostingClassifier(class_weight='balanced', random_state=42)",
+  "dataset_sha256": "6be8fec3173f12d9e8e77b4744bfbffed0fe9e7ae5394f7bb9a23634adbff94a",
+  "features": [
+    "e",
+    "a",
+    "i",
+    "om",
+    "w",
+    "ma",
+    "q",
+    "per"
+  ],
+  "random_state": 42,
+  "sklearn_version": "1.9.1",
+  "metrics_cv": {
+    "cv_accuracy_media": 0.7875445003955284,
+    "cv_precision_pha_media": 0.18031554294092295,
+    "cv_recall_pha_media": 0.7252900426674337,
+    "cv_f1_pha_media": 0.2887909489834289,
+    "cv_roc_auc_media": 0.8500347848891332,
+    "cv_accuracy_dp": 0.006122411025895201,
+    "cv_precision_pha_dp": 0.0057254923546348055,
+    "cv_recall_pha_dp": 0.021918567846704082,
+    "cv_f1_pha_dp": 0.008551191926854912,
+    "cv_roc_auc_dp": 0.005121378774066959
+  },
+  "metrics_test": {
+    "accuracy": 0.7606847560265517,
+    "precision_pha": 0.16427640156453716,
+    "recall_pha": 0.7411764705882353,
+    "f1_pha": 0.2689434364994664,
+    "roc_auc_pha": 0.8415010426604713,
+    "training_seconds": 1.6068336963653564,
+    "test_rows": 8587
+  },
+  "model_sha256": "d5d1ecfb4bc78cd0223c03876ad72bc6cc8b75b40171688b9de9c6c71db9c5aa",
+  "stage": "champion",
+  "created_at_utc": "2026-11-13T10:24:58.323990+00:00"
+}

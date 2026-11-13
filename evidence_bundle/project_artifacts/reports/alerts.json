@@ -1,0 +1,14 @@
+[
+  {
+    "regra": "taxa de erros inesperados <= 1%",
+    "status": "OK"
+  },
+  {
+    "regra": "lat\u00eancia p95 no cliente <= 500 ms",
+    "status": "OK"
+  },
+  {
+    "regra": "nenhuma resposta HTTP 5xx",
+    "status": "OK"
+  }
+]

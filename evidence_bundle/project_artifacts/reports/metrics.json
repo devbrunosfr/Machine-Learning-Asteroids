@@ -1,0 +1,33 @@
+{
+  "champion": "v2",
+  "versions": {
+    "v1": {
+      "accuracy": 0.7237684872481658,
+      "precision_pha": 0.12937898089171976,
+      "recall_pha": 0.6372549019607843,
+      "f1_pha": 0.21508934480476505,
+      "roc_auc_pha": 0.7636972084859697,
+      "training_seconds": 0.09039735794067383,
+      "test_rows": 8587
+    },
+    "v2": {
+      "accuracy": 0.7606847560265517,
+      "precision_pha": 0.16427640156453716,
+      "recall_pha": 0.7411764705882353,
+      "f1_pha": 0.2689434364994664,
+      "roc_auc_pha": 0.8415010426604713,
+      "training_seconds": 1.6068336963653564,
+      "test_rows": 8587
+    }
+  },
+  "confusion_matrix_champion": [
+    [
+      6154,
+      1923
+    ],
+    [
+      132,
+      378
+    ]
+  ]
+}
